@@ -1,0 +1,27 @@
+2024-10-04 22:38:58,907 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-04 22:38:58
+2024-10-04 22:38:58,908 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-04 22:38:59,669 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:39:01,060 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:39:01,563 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:39:01,972 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip
+2024-10-04 22:39:02,484 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-04 22:40:30,593 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-04 22:40:30
+2024-10-04 22:40:30,593 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-04 22:40:31,285 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:40:31,832 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:40:32,347 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:40:32,773 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip
+2024-10-04 22:40:33,455 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-04 22:47:11,285 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-04 22:47:11
+2024-10-04 22:47:11,285 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-04 22:47:12,476 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:47:15,955 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:47:16,384 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:47:16,806 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip
+2024-10-04 22:47:17,381 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-04 22:49:32,272 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-04 22:49:35,081 INFO [WDM] [logger.py(log:11)] - Driver has been saved in cache [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\129.0.2792.65]
+2024-10-04 22:49:39,970 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-10-04 22:49:40,053 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 郑军
+2024-10-04 22:49:40,066 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-10-04 22:49:40,129 INFO [root] [BaseHandler.py(ele_click:52)] - click

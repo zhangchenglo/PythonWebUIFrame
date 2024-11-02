@@ -1,0 +1,21 @@
+2024-10-21 21:18:48,054 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-21 21:18:48
+2024-10-21 21:18:48,056 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-21 21:18:49,643 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:19:12,303 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-21 21:19:12
+2024-10-21 21:19:12,304 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-21 21:19:13,325 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:19:13,574 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:19:14,038 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:19:14,217 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_win64.zip
+2024-10-21 21:19:14,454 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-21 21:19:18,929 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:19:19,316 INFO [WDM] [logger.py(log:11)] - Driver has been saved in cache [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\130.0.2849.46]
+2024-10-21 21:20:21,507 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-21 21:20:21
+2024-10-21 21:20:21,507 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-21 21:20:22,444 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:20:22,758 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-21 21:20:24,014 INFO [WDM] [logger.py(log:11)] - Driver [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-21 21:20:27,168 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-10-21 21:20:27,279 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 王娟
+2024-10-21 21:20:27,294 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-10-21 21:20:27,410 INFO [root] [BaseHandler.py(ele_click:52)] - click

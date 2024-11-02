@@ -1,0 +1,38 @@
+2024-10-17 20:37:49,453 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-17 20:37:49
+2024-10-17 20:37:49,457 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-17 20:37:51,912 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:37:52,163 WARNING [urllib3.connection] [connection.py(_match_hostname:545)] - Certificate did not match expected hostname: msedgedriver.azureedge.net. Certificate: {'subject': ((('commonName', 'api.sky526.com'),),), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'Sectigo Limited'),), (('commonName', 'Sectigo RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'DD6943FFC0063F995D3677429D8C3855', 'notBefore': 'May 30 00:00:00 2024 GMT', 'notAfter': 'May 30 23:59:59 2025 GMT', 'subjectAltName': (('DNS', 'api.sky526.com'), ('DNS', 'www.api.sky526.com')), 'OCSP': ('http://ocsp.sectigo.com',), 'caIssuers': ('http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt',)}
+2024-10-17 20:38:27,740 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-17 20:38:27
+2024-10-17 20:38:27,741 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-17 20:38:29,205 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:38:29,634 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:38:29,876 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:38:30,099 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.89/edgedriver_win64.zip
+2024-10-17 20:38:30,350 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-17 20:39:36,465 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-17 20:39:36
+2024-10-17 20:39:36,466 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-17 20:39:37,978 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:39:38,197 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:39:38,428 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:39:38,642 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.89/edgedriver_win64.zip
+2024-10-17 20:39:38,915 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-10-17 20:40:05,502 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:40:06,091 INFO [WDM] [logger.py(log:11)] - Driver has been saved in cache [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\129.0.2792.89]
+2024-10-17 20:41:06,800 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-17 20:41:06
+2024-10-17 20:41:06,801 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-17 20:41:08,280 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:41:08,653 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:41:09,039 INFO [WDM] [logger.py(log:11)] - Driver [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\129.0.2792.89\msedgedriver.exe] found in cache
+2024-10-17 20:41:12,175 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-10-17 20:41:12,376 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 陈颖
+2024-10-17 20:41:12,392 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-10-17 20:41:12,505 INFO [root] [BaseHandler.py(ele_click:52)] - click
+2024-10-17 20:41:32,992 INFO [root] [__init__.py(<module>:18)] - log at 2024-10-17 20:41:32
+2024-10-17 20:41:32,993 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-10-17 20:41:34,653 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:41:34,977 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-17 20:41:35,307 INFO [WDM] [logger.py(log:11)] - Driver [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\129.0.2792.89\msedgedriver.exe] found in cache
+2024-10-17 20:41:38,255 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-10-17 20:41:38,399 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 王伟
+2024-10-17 20:41:38,417 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-10-17 20:41:38,495 INFO [root] [BaseHandler.py(ele_click:52)] - click

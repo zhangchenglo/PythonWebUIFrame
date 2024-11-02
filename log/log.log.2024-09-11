@@ -1,0 +1,23 @@
+2024-09-11 11:28:36,348 INFO [root] [__init__.py(<module>:18)] - log at 2024-09-11 11:28:36
+2024-09-11 11:28:36,348 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-09-11 11:28:37,111 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 11:28:37,428 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 11:28:37,727 INFO [WDM] [logger.py(log:11)] - Driver [C:\Users\张成龙\.wdm\drivers\edgedriver\win64\128.0.2739.67\msedgedriver.exe] found in cache
+2024-09-11 11:28:39,829 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-09-11 11:28:39,913 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 江超
+2024-09-11 11:28:39,923 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-09-11 11:28:39,990 INFO [root] [BaseHandler.py(ele_click:52)] - click
+2024-09-11 19:33:05,047 INFO [root] [__init__.py(<module>:18)] - log at 2024-09-11 19:33:05
+2024-09-11 19:33:05,048 INFO [WDM] [logger.py(log:11)] - ====== WebDriver manager ======
+2024-09-11 19:33:07,449 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 19:33:07,807 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 19:33:08,098 INFO [WDM] [logger.py(log:11)] - There is no [win64] edgedriver "128.0.2739.67" for browser edge "128.0.2739" in cache
+2024-09-11 19:33:08,099 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 19:33:08,354 INFO [WDM] [logger.py(log:11)] - About to download new driver from https://msedgedriver.azureedge.net/128.0.2739.67/edgedriver_win64.zip
+2024-09-11 19:33:08,686 INFO [WDM] [logger.py(log:11)] - Driver downloading response is 200
+2024-09-11 19:33:12,605 INFO [WDM] [logger.py(log:11)] - Get LATEST edgedriver version for Edge 128.0.2739
+2024-09-11 19:33:13,119 INFO [WDM] [logger.py(log:11)] - Driver has been saved in cache [C:\Users\zcl15\.wdm\drivers\edgedriver\win64\128.0.2739.67]
+2024-09-11 19:33:15,595 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'kw')
+2024-09-11 19:33:15,662 INFO [root] [BaseHandler.py(input_content:39)] - input_text = 杨想
+2024-09-11 19:33:15,670 INFO [root] [BasePage.py(get_element:23)] - element = ('id', 'su')
+2024-09-11 19:33:15,717 INFO [root] [BaseHandler.py(ele_click:52)] - click
