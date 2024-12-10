@@ -1,6 +1,6 @@
 # Python + Selenium + Pytest + Allure
 
-框架地址：https://gitee.com/kang-kang520/PythonWebDriverUIFrame
+Gitee框架地址：https://gitee.com/kang-kang520/PythonWebDriverUIFrame
 
 手把手框架搭建教学地址：https://www.bilibili.com/video/BV11c411U7uk/?spm_id_from=333.788&vd_source=041bc3fc775a34d6d411f01365cecd96
 
@@ -20,31 +20,180 @@
 
 安装方式：pip install webdriver_manager
 
+For now support:
+- ChromeDriver
+- GeckoDriver
+- IEDriver
+- OperaDriver
+- EdgeChromiumDriver
+
 #### 代理方式
 
-##### Chrome
+#### Use with Chrome
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 ```
-webdriver.Chrome(ChromeDriverManager().install()) 
-```
 
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
-
-##### Firefox 
-
-```
- webdriver.Firefox(GeckoDriverManager().install()) 
-```
-
-
-
-##### Edge
-
-```
-webdriver.Edge(EdgeChromiumDriverManager().install())
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 ```
 
 
+
+#### Use with Chromium
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
+
+driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromiumService
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
+
+driver = webdriver.Chrome(service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+```
+
+
+
+#### Use with Brave
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
+
+driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install())
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as BraveService
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
+
+driver = webdriver.Chrome(service=BraveService(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install()))
+```
+
+
+
+#### Use with Edge
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+
+driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.edge.service import Service as EdgeService
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+
+driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+```
+
+
+
+#### Use with Firefox
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.firefox import GeckoDriverManager
+
+driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
+
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+```
+
+
+
+#### Use with IE
+
+```python3
+# selenium 3
+from selenium import webdriver
+from webdriver_manager.microsoft import IEDriverManager
+
+driver = webdriver.Ie(IEDriverManager().install())
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.ie.service import Service as IEService
+from webdriver_manager.microsoft import IEDriverManager
+
+driver = webdriver.Ie(service=IEService(IEDriverManager().install()))
+```
+
+
+
+#### Use with Opera
+
+```python3
+# selenium 3
+from selenium import webdriver
+from selenium.webdriver.chrome import service
+from webdriver_manager.opera import OperaDriverManager
+
+webdriver_service = service.Service(OperaDriverManager().install())
+webdriver_service.start()
+
+driver = webdriver.Remote(webdriver_service.service_url, webdriver.DesiredCapabilities.OPERA)
+
+```
+
+```python
+# selenium 4
+from selenium import webdriver
+from selenium.webdriver.chrome import service
+from webdriver_manager.opera import OperaDriverManager
+
+webdriver_service = service.Service(OperaDriverManager().install())
+webdriver_service.start()
+
+options = webdriver.ChromeOptions()
+options.add_experimental_option('w3c', True)
+
+driver = webdriver.Remote(webdriver_service.service_url, options=options)
+```
 
 ### 项目目录结构
 
