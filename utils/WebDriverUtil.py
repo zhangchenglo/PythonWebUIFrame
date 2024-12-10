@@ -9,8 +9,33 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from selenium.webdriver.edge.service import Service as EdgeService
 
 from api import SYSTEM_URL
+
+"""
+chrome:
+    selenium 3 : 
+        from selenium import webdriver
+        from webdriver_manager.chrome import ChromeDriverManager
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+    selenium 4 ：
+        from selenium import webdriver
+        from selenium.webdriver.chrome.service import Service as ChromeService
+        from webdriver_manager.chrome import ChromeDriverManager
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        
+EDGE:
+    selenium 3 :
+        from selenium import webdriver
+        from webdriver_manager.microsoft import EdgeChromiumDriverManager
+        driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+    selenium 4 :
+        from selenium import webdriver
+        from selenium.webdriver.edge.service import Service as EdgeService
+        from webdriver_manager.microsoft import EdgeChromiumDriverManager
+        driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+"""
 
 
 class DriverUtils:
@@ -27,8 +52,9 @@ class DriverUtils:
             # cls._driver = webdriver.Chrome()
             # 使用这段代码可以自动下载浏览器驱动 无需手动更新
             # 使用了第三方库 webdriver_manager 安装：pip install webdriver_manager
-            # cls._driver = webdriver.Chrome(ChromeDriverManager().install())
-            cls._driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+            # cls._driver = webdriver.Chrome(ChromeDriverManager().install()) 这是selenium 3 版本
+            # selenium 4 版本需要指定 service
+            cls._driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
             cls._driver.maximize_window()
             # 获取 env 中的 值
             cls._driver.get(SYSTEM_URL)
