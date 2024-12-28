@@ -14,7 +14,7 @@ from faker import Faker
 
 from pages.proxypages.BaiduProxy import BaiduProxy
 from utils import ScreenShotUtil
-from utils.WebDriverUtil import DriverUtils
+from utils.WebDriverUtil import WebDriverUtil
 
 
 # @pytest.mark.skip("暂时跳过")
@@ -27,7 +27,7 @@ class TestBaiduSearchContent:
         self.faker = Faker(locale="zh-CN")  # faker 造数据
 
     def teardown_class(self):
-        DriverUtils.quit_driver()  # 退出浏览器驱动
+        WebDriverUtil.quit_driver()  # 退出浏览器驱动
 
     @allure.severity(allure.severity_level.BLOCKER)     # bug 严重等级
     def test_baidu_search_content(self):

@@ -14,7 +14,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from api import SYSTEM_URL
 
 
-class DriverUtils:
+class WebDriverUtil:
     _driver = None
 
     """
